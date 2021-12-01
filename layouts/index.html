@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="hero is-dark is-fullheight">
     <div class="hero-body">
-        <div class="container">
+        <div class="container has-text-centered-mobile">
             <img src="{{ .Params.hero_icon }}" alt="" width="150" height="150">
             <h1 class="title is-size-1">
                 <!-- <span id="greeting"></span> -->
@@ -32,13 +32,31 @@
 <section class="section home-section is-medium" id="skills">
     <div class="container">
         <div class="content">
-            <div class="columns">
-                <div class="column">
-                </div>
-                <div class="column" style="position: relative;">
+            <div class="columns" style="align-items: center;">
+                <div class="column is-offset-1" style="position: relative;">
                     <h2>Skills</h2>
                     <h3>{{ .Params.skills.title }}</h3>
                     {{ .Params.skills.content | markdownify }}
+                </div>
+                <div class="column is-5">
+                    <p class="has-text-centered">Developer Tools</p>
+                    <div class="columns is-multiline is-mobile is-centered" style="flex-direction: row;">
+                        {{ range .Params.skills.skill }}
+                        <div class="column is-3 has-text-centered">
+                            <i class="fab fa-{{ .icon }} fa-2x has-text-primary"></i>
+                            <p class="is-size-7">{{ .tool }}</p>
+                        </div>
+                        {{ end }}
+                    </div>
+                    <p class="has-text-centered">Martech</p>
+                    <div class="columns is-multiline is-mobile is-centered" style="flex-direction: row;">
+                        {{ range .Params.skills.martech }}
+                        <div class="column is-3 has-text-centered">
+                            <i class="fab fa-{{ .icon }} fa-2x has-text-info"></i>
+                            <p class="is-size-7">{{ .tool }}</p>
+                        </div>
+                        {{ end }}
+                    </div>
                 </div>
             </div>
         </div>

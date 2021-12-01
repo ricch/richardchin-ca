@@ -3,6 +3,7 @@ $black: #3d4c57;
 $green: #05cc79;
 $darkgreen: #05b36a;
 $dark: #0e212f;
+$blue: #57A7AB;
 
 
 // Update Bulma's global COLOUR variables
@@ -15,4 +16,8 @@ $primary: $green;
         }
 
     }
+}
+
+.has-text-darkgreen {
+    color: $darkgreen;
 }

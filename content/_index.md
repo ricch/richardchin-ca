@@ -19,6 +19,44 @@ skills:
     title: Over ten years working in various B2B companies, ranging from large, publicly-traded companies to bootstrapped startups.
     content: |-
         Hi, I'm Richard, a Front-End Web Developer and Graphic Designer based in Toronto. I enjoy creating interactive websites and web apps written with clean, DRY code that are designed with pixel perfection.
+    skill:
+    - tool: HTML5
+      icon: html5
+    - tool: CSS3
+      icon: css3-alt
+    - tool: JavaScript
+      icon: js-square
+    - tool: Sass
+      icon: sass
+    - tool: Gulp
+      icon: gulp
+    - tool: Github
+      icon: github
+    - tool: React
+      icon: react
+    - tool: Hugo
+      icon: hugo
+    - tool: Firebase
+      icon: firebase
+    - tool: Kentico
+      icon: kentico
+    - tool: jQuery
+      icon: jquery
+    - tool: Wordpress
+      icon: wordpress
+    martech:
+    - tool: Salesforce
+      icon: salesforce
+    - tool: Pardot
+      icon: pardot
+    - tool: Hubspot
+      icon: hubspot
+    - tool: Google Analytics
+      icon: analytics
+    - tool: Google Tag Manager
+      icon: analytics
+    - tool: Google Data Studio
+      icon: analytics
 facts:
     title: 'Title'
     content: ''
