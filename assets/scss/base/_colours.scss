@@ -7,3 +7,12 @@ $dark: #0e212f;
 
 // Update Bulma's global COLOUR variables
 $primary: $green;
+
+.has-background-dark {
+    .content {
+        h1, h2, h3, h4, h5, h6, p, ul, ol, li, blockquote {
+            color: white;
+        }
+
+    }
+}

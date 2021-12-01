@@ -20,6 +20,40 @@ skills:
     title: Over ten years working in various B2B companies, ranging from large, publicly-traded companies to bootstrapped startups.
     content: |-
         Hi, I'm Richard, a Front-End Web Developer and Graphic Designer based in Toronto. I enjoy creating interactive websites and web apps written with clean, DRY code that are designed with pixel perfection.
+facts:
+    title: 'If you are looking for a screwdriver, you will not find him here, but if you are looking for a creative design partner that can help you with your projects & create mind-blowing experiences, you just found him.'
+    content: ''
+    fact:
+    - title: Photography <br>Enthusiast
+      content: "Everything I need for life's adventures: \n\n* Google Pixel 5\n* Nikon d7100\n* GoPro\n* DJI Mavic Pro"
+      image: 
+    - title: Dog <br>Father
+      content: "Enjoying the outdoors with our doggo Harley:
+    \n\n* ¼ Rottweiler\n* ¼ Husky\n* ¼ German Shepherd\n* ¼ Australian Shepherd"
+      image: 
+    - title: Wannabe <br>Chef
+      content: "I enjoy home cooked food, sous-viding steaks, weekend bbq-ing and on occasion,
+    checking out new cuisines and local restaurants on Yelp."
+      image: 
+    - title: Frequent <br>Flyer Miles
+      content: |-
+        Getting some extra steps with my Fitbit
+        * Joshua Tree, Sequoia, Kings Canyon, Yosemite
+        * Road trip to Nova Scotia, New Brunswick, PEI
+        * London & Scotland
+        * Grand Canyon, Antelope Canyon, Monument Valley, Bryce Canyon, Zion
+      image: 
+    - title: Hockey <br>Fanatic
+      content: |-
+        Bleeding blue and white since the 90s
+        * Potvin era
+        * Cujo era
+        * Eagle era 
+        * _we'll skip everything in between_
+        * Freddy era
+        * But now, focused on my Fantasy Team "ICanSeeYourFiveHole"
+      image: 
+
 
 ---
 
