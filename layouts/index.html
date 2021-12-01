@@ -1,0 +1,45 @@
+{{ define "main" }}
+<section class="hero is-dark is-fullheight">
+    <div class="hero-body">
+        <div class="">
+            <img src="{{ .Params.hero_icon }}" alt="" width="150" height="150">
+            <h1 class="title is-size-1">{{ .Params.headline }}</h1>
+            <p class="subtitle">{{ .Params.textline }}</p>
+        </div>
+    </div>
+</section>
+<section class="section home-section is-medium">
+    <div class="container">
+        <div class="content">
+            <div class="columns">
+                <div class="column" style="position: relative;">
+                    <h2>About</h2>
+                    <h3 class="is-size-3">{{ .Params.about.title }}</h3>
+                    {{ .Params.about.content | markdownify }}
+                    <div class="buttons">
+                        <a href="" class="button is-primary">Download CV</a><a href="" class="button is-dark is-outlined">Visit me on LinkedIn</a>
+                    </div>
+                </div>
+                <div class="column">
+                    <img src="/uploads/headshot-rc.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section home-section is-medium">
+    <div class="container">
+        <div class="content">
+            <div class="columns">
+                <div class="column">
+                </div>
+                <div class="column" style="position: relative;">
+                    <h2>Skills</h2>
+                    <h3>{{ .Params.skills.title }}</h3>
+                    {{ .Params.skills.content | markdownify }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
