@@ -3,7 +3,7 @@ title: "Front End Web Developer"
 date: 2021-11-30T19:51:55-05:00
 hero_image: ""
 hero_icon: "/uploads/logo_rc-white.svg"
-headline: "Hi, I'm Richard Chin"
+headline: ", I'm Richard Chin"
 textline: "a front end developer based in Toronto, Canada"
 about: 
     title: Title goes here
@@ -24,11 +24,11 @@ facts:
     content: ''
     fact:
     - title: Photography <br>Enthusiast
-      content: "Everything I need for life's adventures: \n\n* Google Pixel 5\n* Nikon d7100\n* GoPro\n* DJI Mavic Pro"
+      content: "Everything I need to document my life's adventures: \n\n* Google Pixel 5\n* Nikon d7100\n* GoPro\n* DJI Mavic Pro"
       image: 
     - title: Dog <br>Father
       content: "Enjoying the outdoors with our doggo Harley:
-    \n\n* ¼ Rottweiler\n* ¼ Husky\n* ¼ German Shepherd\n* ¼ Australian Shepherd"
+    \n\n* &frac14; Rottweiler\n* &frac14; Husky\n* &frac14; German Shepherd\n* &frac14; Australian Shepherd"
       image: 
     - title: Wannabe <br>Chef
       content: "I enjoy home cooked food, sous-viding steaks, weekend bbq-ing and on occasion,
@@ -36,7 +36,7 @@ facts:
       image: 
     - title: Frequent <br>Flyer Miles
       content: |-
-        Getting some extra steps with my Fitbit
+        Getting some extra steps with my Fitbit.
         * Joshua Tree, Sequoia, Kings Canyon, Yosemite
         * Road trip to Nova Scotia, New Brunswick, PEI
         * London & Scotland
@@ -44,13 +44,13 @@ facts:
       image: 
     - title: Hockey <br>Fanatic
       content: |-
-        Bleeding blue and white since the 90s
+        Bleeding blue and white since I first laid my hands on a hockey stick.
         * Potvin era
         * Cujo era
         * Eagle era 
-        * _we'll skip everything in between_
+        * ~~_skip a few years_~~
         * Freddy era
-        * But now, focused on my Fantasy Team "ICanSeeYourFiveHole"
+        * GM-ing my Fantasy Team ICanSeeYour5Hole
       image: 
 
 

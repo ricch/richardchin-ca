@@ -1,9 +1,11 @@
 {{ define "main" }}
 <section class="hero is-dark is-fullheight">
     <div class="hero-body">
-        <div class="">
+        <div class="container">
             <img src="{{ .Params.hero_icon }}" alt="" width="150" height="150">
-            <h1 class="title is-size-1">{{ .Params.headline }}</h1>
+            <h1 class="title is-size-1">
+                <!-- <span id="greeting"></span> -->
+                Hello &#128075;{{ .Params.headline }}</h1>
             <p class="subtitle">{{ .Params.textline }}</p>
         </div>
     </div>
@@ -15,9 +17,9 @@
                 <div class="column" style="position: relative;">
                     <h2 id="about">About</h2>
                     <h3 class="is-size-3">{{ .Params.about.title }}</h3>
-                    {{ .Params.about.content | markdownify }}
+                    <i class="fal fa-envelope"></i>{{ .Params.about.content | markdownify }}
                     <div class="buttons">
-                        <a href="" class="button is-primary">Download CV</a><a href="" class="button is-dark is-outlined">Visit me on LinkedIn</a>
+                        <a href="" class="button is-primary">Download CV</a><a href="https://www.linkedin.com/in/{{ $.Site.Params.linkedin }}" class="button is-dark is-outlined" rel="noopener" target="_blank">Visit me on LinkedIn</a>
                     </div>
                 </div>
                 <div class="column">
@@ -47,12 +49,13 @@
         <div class="content">
             <div class="columns">
                 <div class="column" style="position: relative;">
-                    <h2>Fun Facts</h2>
-                    <h3>{{ .Params.facts.title }}</h3>
+                    <h2>Rando Facts</h2>
+                    <h3 class="has-text-centered">{{ .Params.facts.title }}</h3>
                     {{ .Params.facts.content | markdownify }}
                     <div class="columns">
                         {{ range .Params.facts.fact }}
                         <div class="column">
+                            <i class="fas fa-camera"></i>
                             <p class="has-text-weight-bold has-text-primary is-size-5 has-text-centered">{{ .title | markdownify }}</p>
                             <p>{{ .content | markdownify }}</p>
                         </div>

@@ -24,4 +24,16 @@
             }
         }
     }
+    &#facts {
+        .content {
+            h2 {
+                @media (min-width: 769px) {
+                    left: 50%;
+                    transform: translateX(-50%);
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
