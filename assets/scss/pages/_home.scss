@@ -38,7 +38,7 @@
     }
 }
 
-section.home-section ~ section.home-section {
+#skills {
     .columns {
         @media (min-width: 769px) {
             flex-direction: row-reverse;

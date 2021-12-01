@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section class="hero is-dark is-fullheight">
+<section class="hero is-dark is-fullheight is-bold">
     <div class="hero-body">
         <div class="container has-text-centered-mobile">
             <img src="{{ .Params.hero_icon }}" alt="" width="150" height="150">
@@ -39,7 +39,7 @@
                     {{ .Params.skills.content | markdownify }}
                 </div>
                 <div class="column is-5">
-                    <p class="has-text-centered">Developer Tools</p>
+                    <p class="has-text-centered">Dev Stack</p>
                     <div class="columns is-multiline is-mobile is-centered" style="flex-direction: row;">
                         {{ range .Params.skills.skill }}
                         <div class="column is-3 has-text-centered">
@@ -48,7 +48,7 @@
                         </div>
                         {{ end }}
                     </div>
-                    <p class="has-text-centered">Martech</p>
+                    <p class="has-text-centered">Martech Stack</p>
                     <div class="columns is-multiline is-mobile is-centered" style="flex-direction: row;">
                         {{ range .Params.skills.martech }}
                         <div class="column is-3 has-text-centered">

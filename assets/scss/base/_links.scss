@@ -3,3 +3,9 @@ $link: $primary;
 a {
     transition: .2s all;
 }
+
+.content {
+    a {
+        text-decoration: underline;
+    }
+}

@@ -10,9 +10,9 @@ about:
     content: |-
         Hi, I'm Richard, a Front-End Web Developer and Graphic Designer based in Toronto. I enjoy creating interactive websites and web apps written with clean, DRY code that are designed with pixel perfection.
 
-        Currently, I'm a web developer at Kira Systems where I take ownership of all digital marketing assets including the corporate website, email marketing and blogs.
+        Currently, I'm a web developer at [Kira Systems](https://kirasystems.com) where I take ownership of all digital marketing assets including the corporate website, email marketing and blogs.
 
-        Prior to taking the Web Development Immersive at HackerYou, I was a Marketing Design Lead at Jonas Club Software, where I collaborated with multiple departments to establish new ways to communicate with clients, develop relationships, reinforce brand image and drive sales revenue.
+        Prior to taking the Web Development Immersive at [HackerYou (now known as Juno College)](https://junocollege.com/), I was a Marketing Design Lead at Jonas Club Software, where I collaborated with multiple departments to establish new ways to communicate with clients, develop relationships, reinforce brand image and drive sales revenue.
 
         When I'm not near a computer, I'm most likely out on an adventure with our ~~puppy~~ dog, Harley.
 skills: 
@@ -62,7 +62,7 @@ facts:
     content: ''
     fact:
     - title: Photography <br>Enthusiast
-      content: "Tech tools to help document my life's adventures: \n\n* Google Pixel 5\n* Nikon d7100\n* GoPro\n* DJI Mavic Pro"
+      content: "Tech to help document my life's adventures: \n\n* Google Pixel 5\n* Nikon d7100\n* GoPro\n* DJI Mavic Pro"
       icon: fa-camera-retro
     - title: Dawg <br>Father
       content: "Enjoying the outdoors with our doggo Harley:
@@ -70,9 +70,10 @@ facts:
       icon: fa-paw
     - title: Wannabe <br>Chef
       content: |- 
-        If I don't eat, I'll die. Or at most, i'd get hangry.
+        If I don't eat, I'll die. Or at most, I'd get hangry.
         * Monthly smoking session on the kamado
-        * Sous-viding steaks
+        * Grilling / searing on the Barbie
+        * Low & slow stews when it gets cold
         * Eating out when I get lazy
       icon: fa-utensils-alt
     - title: Frequent <br>Flyer Miles
@@ -85,13 +86,13 @@ facts:
       icon: fa-plane
     - title: Hockey <br>Fanatic
       content: |-
-        Bleeding blue and white since I first laid my hands on a hockey stick.
+        Bleeding blue & white since I held a hockey stick.
         * Potvin era
         * Cujo era
         * Eagle era 
         * ~~_skip a few years_~~
         * Freddy era
-        * GM-ing my Fantasy Team ICanSeeYour5Hole
+        * GM-ing my Fantasy Hockey Team ICanSeeYour5Hole
       icon: fa-heart
 
 
