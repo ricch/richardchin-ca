@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://richard-chin.netlify.app/'
 languageCode = 'en-us'
 title = 'Richard Chin'
 metaDataFormat = "yaml"
