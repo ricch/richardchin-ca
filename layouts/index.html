@@ -13,11 +13,11 @@
 <section class="section home-section is-medium" id="about">
     <div class="container">
         <div class="content">
-            <div class="columns">
+            <div class="columns" style="align-items: center;">
                 <div class="column" style="position: relative;">
                     <h2 id="about">About</h2>
                     <h3 class="is-size-3">{{ .Params.about.title }}</h3>
-                    <i class="fal fa-envelope"></i>{{ .Params.about.content | markdownify }}
+                    {{ .Params.about.content | markdownify }}
                     <div class="buttons">
                         <a href="" class="button is-primary">Download CV</a><a href="https://www.linkedin.com/in/{{ $.Site.Params.linkedin }}" class="button is-dark is-outlined" rel="noopener" target="_blank">Visit me on LinkedIn</a>
                     </div>
@@ -55,8 +55,8 @@
                     <div class="columns">
                         {{ range .Params.facts.fact }}
                         <div class="column">
-                            <i class="fas fa-camera"></i>
-                            <p class="has-text-weight-bold has-text-primary is-size-5 has-text-centered">{{ .title | markdownify }}</p>
+                            <p class="has-text-centered mb-2"><i class="fal {{ .icon }} has-text-primary fa-2x"></i></p>
+                            <p class="has-text-weight-bold is-size-5 has-text-centered">{{ .title | markdownify }}</p>
                             <p>{{ .content | markdownify }}</p>
                         </div>
                         {{ end }}

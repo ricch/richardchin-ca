@@ -24,16 +24,19 @@ facts:
     content: ''
     fact:
     - title: Photography <br>Enthusiast
-      content: "Everything I need to document my life's adventures: \n\n* Google Pixel 5\n* Nikon d7100\n* GoPro\n* DJI Mavic Pro"
-      image: 
-    - title: Dog <br>Father
+      content: "Tech tools to help document my life's adventures: \n\n* Google Pixel 5\n* Nikon d7100\n* GoPro\n* DJI Mavic Pro"
+      icon: fa-camera-retro
+    - title: Dawg <br>Father
       content: "Enjoying the outdoors with our doggo Harley:
     \n\n* &frac14; Rottweiler\n* &frac14; Husky\n* &frac14; German Shepherd\n* &frac14; Australian Shepherd"
-      image: 
+      icon: fa-paw
     - title: Wannabe <br>Chef
-      content: "I enjoy home cooked food, sous-viding steaks, weekend bbq-ing and on occasion,
-    checking out new cuisines and local restaurants on Yelp."
-      image: 
+      content: |- 
+        If I don't eat, I'll die. Or at most, i'd get hangry.
+        * Monthly smoking session on the kamado
+        * Sous-viding steaks
+        * Eating out when I get lazy
+      icon: fa-utensils-alt
     - title: Frequent <br>Flyer Miles
       content: |-
         Getting some extra steps with my Fitbit.
@@ -41,7 +44,7 @@ facts:
         * Road trip to Nova Scotia, New Brunswick, PEI
         * London & Scotland
         * Grand Canyon, Antelope Canyon, Monument Valley, Bryce Canyon, Zion
-      image: 
+      icon: fa-plane
     - title: Hockey <br>Fanatic
       content: |-
         Bleeding blue and white since I first laid my hands on a hockey stick.
@@ -51,7 +54,7 @@ facts:
         * ~~_skip a few years_~~
         * Freddy era
         * GM-ing my Fantasy Team ICanSeeYour5Hole
-      image: 
+      icon: fa-heart
 
 
 ---
