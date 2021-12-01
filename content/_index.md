@@ -1,7 +1,6 @@
 ---
 title: "Front End Web Developer"
 date: 2021-11-30T19:51:55-05:00
-description: ""
 hero_image: ""
 hero_icon: "/uploads/logo_rc-white.svg"
 headline: "Hi, I'm Richard Chin"
@@ -21,7 +20,7 @@ skills:
     content: |-
         Hi, I'm Richard, a Front-End Web Developer and Graphic Designer based in Toronto. I enjoy creating interactive websites and web apps written with clean, DRY code that are designed with pixel perfection.
 facts:
-    title: 'If you are looking for a screwdriver, you will not find him here, but if you are looking for a creative design partner that can help you with your projects & create mind-blowing experiences, you just found him.'
+    title: 'Title'
     content: ''
     fact:
     - title: Photography <br>Enthusiast

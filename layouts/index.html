@@ -50,14 +50,14 @@
                     <h2>Fun Facts</h2>
                     <h3>{{ .Params.facts.title }}</h3>
                     {{ .Params.facts.content | markdownify }}
-                    <div class="columns is-centered"><div class="column is-10"><div class="columns">
+                    <div class="columns">
                         {{ range .Params.facts.fact }}
                         <div class="column">
                             <p class="has-text-weight-bold has-text-primary is-size-5 has-text-centered">{{ .title | markdownify }}</p>
                             <p>{{ .content | markdownify }}</p>
                         </div>
                         {{ end }}
-                    </div></div></div>
+                    </div>
                 </div>
             </div>
         </div>

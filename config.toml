@@ -11,9 +11,9 @@ summarylength = 15
       unsafe = true
 
 [params]
-    description = "Product marketing leader, entrepreneur and YouTube content creator."
-    images = ["sondurenfanarredha-og.jpg"]
-    logoSchema = "/uploads/logo-sondurenfanarredha.png"
+    description = "Web Developer focusing on high growth strategies for B2B Saas companies"
+    images = ["og-richardchin.jpg"]
+    logoSchema = "/uploads/schema-richardchin.png"
     googleTagManagerID = "GTM-xxxxxx"
     linkedin = "chinrichard"
     youtube = "ricch13"
