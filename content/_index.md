@@ -62,7 +62,7 @@ facts:
     content: ''
     fact:
     - title: Photography <br>Enthusiast
-      content: "Tech to help document my life's adventures: \n\n* Google Pixel 5\n* Nikon d7100\n* GoPro\n* DJI Mavic Pro"
+      content: "Tech to document my life's adventures: \n\n* Google Pixel 5\n* Nikon d7100\n* GoPro\n* DJI Mavic Pro"
       icon: fa-camera-retro
     - title: Dawg <br>Father
       content: "Enjoying the outdoors with our doggo Harley:
