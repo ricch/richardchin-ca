@@ -43,7 +43,11 @@
                     <div class="columns is-multiline is-mobile is-centered" style="flex-direction: row;">
                         {{ range .Params.skills.skill }}
                         <div class="column is-3 has-text-centered">
+                            {{ if in .icon ".svg" }}
+                            <img src="/uploads/{{ .icon }}" alt="" style="max-height: 30px;">
+                            {{ else }}
                             <i class="fab fa-{{ .icon }} fa-2x has-text-primary"></i>
+                            {{ end }}
                             <p class="is-size-7">{{ .tool }}</p>
                         </div>
                         {{ end }}
@@ -52,7 +56,11 @@
                     <div class="columns is-multiline is-mobile is-centered" style="flex-direction: row;">
                         {{ range .Params.skills.martech }}
                         <div class="column is-3 has-text-centered">
+                            {{ if in .icon ".svg" }}
+                            <img src="/uploads/{{ .icon }}" alt="" style="max-height: 30px;">
+                            {{ else }}
                             <i class="fab fa-{{ .icon }} fa-2x has-text-info"></i>
+                            {{ end }}
                             <p class="is-size-7">{{ .tool }}</p>
                         </div>
                         {{ end }}
@@ -145,7 +153,9 @@
                     <div class="columns">
                         {{ range .Params.facts.fact }}
                         <div class="column">
-                            <p class="has-text-centered mb-2"><i class="fal {{ .icon }} has-text-primary fa-2x"></i></p>
+                            <p class="has-text-centered mb-2">
+                                <i class="fal {{ .icon }} has-text-primary fa-2x"></i>
+                            </p>
                             <p class="has-text-weight-bold is-size-5 has-text-centered">{{ .title | markdownify }}</p>
                             <p>{{ .content | markdownify }}</p>
                         </div>

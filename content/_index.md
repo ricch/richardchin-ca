@@ -33,30 +33,30 @@ skills:
     - tool: Github
       icon: github
     - tool: React
-      icon: react
+      icon: github
     - tool: Hugo
-      icon: hugo
+      icon: devLogo-hugo2.svg
     - tool: Firebase
-      icon: firebase
+      icon: devLogo-firebase.svg
     - tool: Kentico
-      icon: kentico
+      icon: devLogo-kentico.svg
     - tool: jQuery
-      icon: jquery
+      icon: devLogo-jquery.svg
     - tool: Wordpress
       icon: wordpress
     martech:
     - tool: Salesforce
       icon: salesforce
     - tool: Pardot
-      icon: pardot
+      icon: martechLogo-pardot.svg
     - tool: Hubspot
       icon: hubspot
     - tool: Google Analytics
-      icon: analytics
+      icon: martechLogo-analytics2.svg
     - tool: Google Tag Manager
-      icon: analytics
+      icon: martechLogo-tagManager.svg
     - tool: Google Data Studio
-      icon: analytics
+      icon: martechLogo-dataStudio.svg
 facts:
     title: "When I'm not coding or working, I like to keep myself busy.<br><span class='is-size-6'>(Although my <span id='emilyAge'></span> month daughter has been keeping me on my toes)</span>"
     content: ''
