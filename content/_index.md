@@ -33,9 +33,11 @@ skills:
     - tool: Github
       icon: github
     - tool: React
-      icon: github
+      icon: devLogo-react.svg
     - tool: Hugo
       icon: devLogo-hugo2.svg
+    - tool: Forestry
+      icon: devLogo-forestry.svg
     - tool: Firebase
       icon: devLogo-firebase.svg
     - tool: Kentico
@@ -49,6 +51,10 @@ skills:
       icon: salesforce
     - tool: Pardot
       icon: martechLogo-pardot.svg
+    - tool: Marketo
+      icon: martechLogo-marketo.svg
+    - tool: Drift
+      icon: martechLogo-drift.svg
     - tool: Hubspot
       icon: hubspot
     - tool: Google Analytics
