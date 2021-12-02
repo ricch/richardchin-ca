@@ -19,7 +19,7 @@
                     <h3 class="is-size-3">{{ .Params.about.title }}</h3>
                     {{ .Params.about.content | markdownify }}
                     <div class="buttons">
-                        <a href="" class="button is-primary">Download CV</a><a href="https://www.linkedin.com/in/{{ $.Site.Params.linkedin }}" class="button is-dark is-outlined" rel="noopener" target="_blank">Visit me on LinkedIn</a>
+                        <a href="" class="button is-primary">Download CV <i class="fas fa-arrow-to-bottom ml-2"></i></a><a href="https://www.linkedin.com/in/{{ $.Site.Params.linkedin }}" class="button is-dark is-outlined" rel="noopener" target="_blank">Visit me on LinkedIn <i class="fas fa-external-link ml-2"></i></a>
                     </div>
                 </div>
                 <div class="column">
@@ -62,7 +62,7 @@
         </div>
     </div>
 </section>
-<section class="section home-section is-medium px-0" id="portfolio">
+<!-- <section class="section home-section is-medium px-0" id="portfolio">
     <div class="content">
         <div class="tile is-ancestor is-gapless">
             <div class="tile is-vertical is-8">
@@ -92,7 +92,7 @@
                     <p class="title">Wide tile</p>
                     <p class="subtitle">Aligned with the right tile</p>
                     <div class="content">
-                        <!-- Content -->
+                        asdf
                     </div>
                 </article>
               </div>
@@ -103,15 +103,38 @@
                     <p class="title">Tall tile</p>
                     <p class="subtitle">With even more content</p>
                     <div class="content">
-                        <!-- Content -->
+                        asdf
                     </div>
                     </div>
                 </article>
             </div>
           </div>
     </div>
+</section> -->
+<section class="section home-section is-medium has-background-dark" id="works">
+    <div class="container">
+        <div class="content">
+            <div class="columns">
+                <div class="column" style="position: relative;">
+                    <h2>Works</h2>
+                    <h3>Latest Projects</h3>
+                    <div class="columns">
+                        <div class="column">
+                            <img src="http://via.placeholder.com/400x400" alt="">
+                        </div>
+                        <div class="column">
+                            <img src="http://via.placeholder.com/400x400" alt="">
+                        </div>
+                        <div class="column">
+                            <img src="http://via.placeholder.com/400x400" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
-<section class="section home-section is-medium has-background-dark" id="facts">
+<section class="section home-section is-medium" id="facts">
     <div class="container">
         <div class="content">
             <div class="columns">
