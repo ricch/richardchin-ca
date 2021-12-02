@@ -58,15 +58,19 @@ skills:
     - tool: Google Data Studio
       icon: analytics
 facts:
-    title: 'Title'
+    title: "When I'm not coding or working, I like to keep myself busy.<br><span class='is-size-6'>(Although my <span id='emilyAge'></span> month daughter has been keeping me on my toes)</span>"
     content: ''
     fact:
     - title: Photography <br>Enthusiast
       content: "Tech to document my life's adventures: \n\n* Google Pixel 5\n* Nikon d7100\n* GoPro\n* DJI Mavic Pro"
       icon: fa-camera-retro
     - title: Dawg <br>Father
-      content: "Enjoying the outdoors with our doggo Harley:
-    \n\n* &frac14; Rottweiler\n* &frac14; Husky\n* &frac14; German Shepherd\n* &frac14; Australian Shepherd"
+      content: |-
+        Enjoying the outdoors with our doggo Harley:
+        * &frac14; Rottweiler
+        * &frac14; Husky
+        * &frac14; German Shepherd
+        * &frac14; Australian Shepherd
       icon: fa-paw
     - title: Wannabe <br>Chef
       content: |- 
