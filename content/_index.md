@@ -51,28 +51,32 @@ skills:
       icon: salesforce
     - tool: Pardot
       icon: martechLogo-pardot.svg
+    - tool: Adobe CS
+      icon: martechLogo-adobe.svg
     - tool: Marketo
       icon: martechLogo-marketo.svg
-    - tool: Drift
-      icon: martechLogo-drift.svg
-    - tool: Hubspot
-      icon: hubspot
     - tool: Google Analytics
       icon: martechLogo-analytics2.svg
     - tool: Google Tag Manager
       icon: martechLogo-tagManager.svg
     - tool: Google Data Studio
       icon: martechLogo-dataStudio.svg
+    - tool: Google Optimize
+      icon: martechLogo-optimize.svg
+    - tool: Drift
+      icon: martechLogo-drift.svg
+    - tool: Hubspot
+      icon: hubspot
 facts:
     title: "When I'm not coding or working, I like to keep myself busy.<br><span class='is-size-6'>(Although my <span id='emilyAge'></span> month daughter has been keeping me on my toes)</span>"
     content: ''
     fact:
     - title: Photography <br>Enthusiast
-      content: "Tech to document my life's adventures: \n\n* Google Pixel 5\n* Nikon d7100\n* GoPro\n* DJI Mavic Pro"
+      content: "Toys to document my life's adventures: \n\n* Google Pixel 5\n* Nikon d7100\n* GoPro\n* DJI Mavic Pro"
       icon: fa-camera-retro
-    - title: Dawg <br>Father
+    - title: Dog <br>Father
       content: |-
-        Enjoying the outdoors with our doggo Harley:
+        Getting fresh air with our doggo Harley:
         * &frac14; Rottweiler
         * &frac14; Husky
         * &frac14; German Shepherd
@@ -96,7 +100,7 @@ facts:
       icon: fa-plane
     - title: Hockey <br>Fanatic
       content: |-
-        Bleeding blue & white since I held a hockey stick.
+        Bleeding blue & white since first holding a hockey stick.
         * Potvin era
         * Cujo era
         * Eagle era 

@@ -1,3 +1,28 @@
+$navbar-item-hover-background-color: transparent;
+$navbar-dropdown-item-hover-background-color: transparent;
+
+.navbar-end {
+    .navbar-item {
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            bottom: 0px;
+            left: 0;
+            background-color: $primary;
+            visibility: hidden;
+            transform: scaleX(0);
+            transition: .2s all;
+        }
+        &:hover {
+            &::before {
+                visibility: visible;
+                transform: scaleX(1);
+            }
+        }
+    }
+}
 // $navbar-background-color: transparent;
 // .navbar {
 //     @media (max-width: 768px) {
