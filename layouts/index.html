@@ -126,38 +126,7 @@
                     <h3 class="has-text-centered">Shoot me a quick message and let's connect!</h3>
                     <div class="columns is-centered">
                         <div class="column is-10-tablet is-8-desktop is-6-widescreen">
-                            <form action="">
-                                <div class="columns">
-                                    <div class="column">
-                                        <div class="field">
-                                            <label class="label">Name *</label>
-                                            <div class="control">
-                                            <input class="input" type="text" placeholder="Hey friendo">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="column">
-                                        <div class="field">
-                                            <label class="label">Email *</label>
-                                            <div class="control">
-                                                <input class="input" type="email" placeholder="hello@">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <label class="label">Message</label>
-                                    <div class="control">
-                                    <textarea class="textarea" placeholder="What's up? Where's the 'any' key?"></textarea>
-                                    </div>
-                                </div>
-                                <div class="field has-text-centered mt-5">
-                                    <div class="control">
-                                        <button class="button is-link">Let's Chat</button>
-                                    </div>
-                                </div>
-                            </form>
-                            <!-- <p class="has-text-centered is-italic is-size-7 mt-5">Rather connect via email? <br><a href="mailto:hello@richardchin.ca">hello@richardchin.ca</a></p> -->
+                            {{ partial "components/contact-form.html" . }}
                         </div>
                     </div>
                 </div>
