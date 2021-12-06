@@ -107,7 +107,7 @@ facts:
         * ~~_skip a few years_~~
         * Freddy era
         * GM-ing my Fantasy Hockey Team ICanSeeYour5Hole
-      icon: fa-heart
+      icon: fa-hockey-sticks
 
 
 ---
