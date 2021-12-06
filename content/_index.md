@@ -28,16 +28,16 @@ skills:
       icon: js-square
     - tool: Sass
       icon: sass
+    - tool: Hugo
+      icon: devLogo-hugo2.svg
+    - tool: Forestry
+      icon: devLogo-forestry.svg
     - tool: Gulp
       icon: gulp
     - tool: Github
       icon: github
     - tool: React
       icon: devLogo-react.svg
-    - tool: Hugo
-      icon: devLogo-hugo2.svg
-    - tool: Forestry
-      icon: devLogo-forestry.svg
     - tool: Firebase
       icon: devLogo-firebase.svg
     - tool: Kentico
