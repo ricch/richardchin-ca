@@ -86,18 +86,18 @@ facts:
       content: |- 
         If I don't eat, I'll die. Or at most, I'd get hangry.
         * Monthly smoking session on the kamado
-        * Grilling / searing on the Barbie
+        * Grilling / searing on the bbq
         * Low & slow stews when it gets cold
         * Eating out when I get lazy
-      icon: fa-utensils-alt
-    - title: Frequent <br>Flyer Miles
+      icon: fa-burger-soda
+    - title: World <br>Traveler
       content: |-
-        Getting some extra steps with my Fitbit.
+        Logging some extra steps on Fitbit.
         * Joshua Tree, Sequoia, Kings Canyon, Yosemite
         * Road trip to Nova Scotia, New Brunswick, PEI
         * London & Scotland
         * Grand Canyon, Antelope Canyon, Monument Valley, Bryce Canyon, Zion
-      icon: fa-plane
+      icon: fa-caravan
     - title: Hockey <br>Fanatic
       content: |-
         Bleeding blue & white since first holding a hockey stick.
