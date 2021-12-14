@@ -1,0 +1,35 @@
+{{ define "main" }}
+<section class="hero is-dark is-medium is-bold">
+    <div class="hero-body">
+        <div class="container has-text-centered-mobile">
+            <h1 class="title is-size-1">{{ .Title }}</h1>
+            <p class="subtitle">{{ .Params.textline }}</p>
+            {{ with .Params.tags }}<div class="tags mt-5">{{ range . }}
+            <span class="tag" style="font-size: .75rem;">{{ . }}</span>
+            {{ end }}</div>{{ end }}
+            <div class="field is-grouped mt-5">
+                {{ with .Params.github_url }}<p class="control"><a href="{{ . }}" target="_blank" class="button is-primary is-outlined">View on Github</a></p>{{ end }}
+                {{ with .Params.live_url }}<p class="control"><a href="{{ . }}" target="_blank" class="button is-primary">View Live</a></p>{{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+<article>
+    <section class="section">
+        <div class="container">
+            <div class="content">
+                <div class="columns">
+                    <div class="column is-5 is-size-5">
+                        {{ .Content }}
+                    </div>
+                    <div class="column">
+                        {{ with .Params.portfolio_images }}{{ range . }}
+                        <img src="{{ . }}" alt="Screenshot of {{ $.Title }}">
+                        {{ end }}{{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</article>
+{{ end }}
