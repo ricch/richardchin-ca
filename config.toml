@@ -11,8 +11,8 @@ summarylength = 15
       unsafe = true
 
 [params]
-    description = "Web Developer focusing on high growth strategies for B2B Saas companies"
-    images = ["og-richardchin.jpg"]
+    description = "Web Developer focusing on high growth strategies for B2B SaaS companies"
+    images = ["/images/og-richardchin.png"]
     logoSchema = "/uploads/schema-richardchin.png"
     googleTagManagerID = "GTM-xxxxxx"
     linkedin = "chinrichard"
