@@ -78,15 +78,11 @@
                     <h2>Works</h2>
                     <h3>Latest Projects</h3>
                     <div class="columns">
+                        {{ range first 6 (where site.RegularPages "Section" "portfolio" ) }}
                         <div class="column">
-                            <img src="https://via.placeholder.com/400x400" alt="">
+                            <a href="{{ .Permalink }}"><img src="{{.Params.thumb}}" alt="{{ .Title }}"></a>
                         </div>
-                        <div class="column">
-                            <img src="https://via.placeholder.com/400x400" alt="">
-                        </div>
-                        <div class="column">
-                            <img src="https://via.placeholder.com/400x400" alt="">
-                        </div>
+                        {{ end }}
                     </div>
                 </div>
             </div>
