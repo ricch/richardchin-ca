@@ -1,7 +1,7 @@
 ---
 title: "Puggle Is Real"
 date: 2021-12-11T00:00:00-05:00
-description: ""
+description: "React JS web application that helps connect dog walkers to owners with database storage on Firebase and the Google Maps API."
 thumb: "/uploads/thumb-puggleIsReal.png"
 textline: "Anytime. Anywhere. Dog walkers on-demand."
 tags:
@@ -14,8 +14,9 @@ tags:
 github_url: https://github.com/ricch/Dog-Walker
 live_url: https://the-puggle-is-real.firebaseapp.com/
 portfolio_images:
-  - /uploads/web-puggle.png
-  - /uploads/mobile-puggleIsReal.png
+  - /uploads/portfolio-puggleIsReal.png
+port_image: "/uploads/portfolio-puggleIsReal.png"
+portfolio_type: React JS Web App
 ---
 
 A web app that assists dog owners who are busy with their day-to-day lives and are in search of trustworthy and responsible dog walkers in their area.

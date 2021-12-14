@@ -1,9 +1,9 @@
 ---
 title: "Sub Crawl"
 date: 2021-12-11T00:00:00-05:00
-description: ""
+description: "Interactive web application utilizing the Yelp API to grab the closest residing bars to every TTC station on your desired route."
 thumb: "/uploads/thumb-subcrawl.png"
-textline: "Find the paths of least resistance to grab a cold bevvy(s) for your commute home."
+textline: "Finding the path of least resistance to grab a few cold bevvies for your commute home."
 tags:
   - Javascript
   - jQuery
@@ -14,9 +14,8 @@ tags:
 github_url: https://github.com/ricch/SubCrawl
 live_url: http://richardchin.ca/SubCrawl/index.html
 portfolio_images:
-  - /uploads/web-subcrawl.png
-  - /uploads/web-subcrawl2.png
-  - /uploads/mobile-subcrawl2.png
+  - /uploads/portfolio-subcrawl.png
+portfolio_type: Yelp API Web App
 ---
 
 Had a long day at work? Need a drink on your commute ride home? How about eight?

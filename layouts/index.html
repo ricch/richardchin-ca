@@ -39,7 +39,7 @@
                     {{ .Params.skills.content | markdownify }}
                 </div>
                 <div class="column is-5">
-                    <p class="has-text-centered">Dev Stack</p>
+                    <h6 class="has-text-centered">Dev Stack</h6>
                     <div class="columns is-multiline is-mobile is-centered" style="flex-direction: row;">
                         {{ range .Params.skills.skill }}
                         <div class="column is-3 has-text-centered">
@@ -52,7 +52,7 @@
                         </div>
                         {{ end }}
                     </div>
-                    <p class="has-text-centered">Martech Stack</p>
+                    <h6 class="has-text-centered">Martech Stack</h6>
                     <div class="columns is-multiline is-mobile is-centered" style="flex-direction: row;">
                         {{ range .Params.skills.martech }}
                         <div class="column is-3 has-text-centered">
@@ -80,7 +80,13 @@
                     <div class="columns">
                         {{ range first 6 (where site.RegularPages "Section" "portfolio" ) }}
                         <div class="column">
-                            <a href="{{ .Permalink }}"><img src="{{.Params.thumb}}" alt="{{ .Title }}"></a>
+                            <a href="{{ .Permalink }}" class="item-wrapper">
+                                <img src="{{.Params.thumb}}" class="item-image" alt="{{ .Title }}">
+                                <div class="item-caption">
+                                    <p class="is-size-5">{{ .Title }}</p>
+                                    <p class="is-size-7 has-text-primary">{{ .Params.portfolio_type }}</p>
+                                </div>
+                            </a>
                         </div>
                         {{ end }}
                     </div>

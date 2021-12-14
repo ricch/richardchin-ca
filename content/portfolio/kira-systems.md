@@ -18,6 +18,11 @@ tags:
   - Drift
   - GoToWebinar
 live_url: https://kirasystems.com
+portfolio_type: B2B SaaS Marketing Website
+portfolio_images:
+#   - /uploads/portfolio-kiraPatentedMachineLearning.png
+  - /uploads/portfolio-kiraCorporations.png
+
 
 ---
 

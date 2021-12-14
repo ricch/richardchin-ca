@@ -23,9 +23,28 @@
                         {{ .Content }}
                     </div>
                     <div class="column">
-                        {{ with .Params.portfolio_images }}{{ range . }}
-                        <img src="{{ . }}" alt="Screenshot of {{ $.Title }}">
-                        {{ end }}{{ end }}
+                        {{ with .Params.portfolio_images }}
+                        {{ range . }}
+
+                        {{ $src := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
+
+                        {{ $tinyw := default "320x" }}
+                        {{ $smallw := default "600x" }}
+                        {{ $mediumw := default "1200x" }}
+
+                        {{ $resizedtiny := $src.Resize $tinyw }}
+                        {{ $resizedsmall := $src.Resize $smallw }}
+                        {{ $resizedmedium := $src.Resize $mediumw }}
+
+                        <img 
+                        srcset="
+                            {{ $resizedtiny.RelPermalink }} 320w,
+                            {{ $resizedsmall.RelPermalink }} 600w,
+                            {{ $resizedmedium.RelPermalink }} 1200w
+                            "
+                        src="{{ . }}" alt="Screenshot of {{ $.Title }}">
+                        {{ end }}
+                        {{ end }}
                     </div>
                 </div>
             </div>
