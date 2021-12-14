@@ -79,9 +79,24 @@
                     <h3>Latest Projects</h3>
                     <div class="columns">
                         {{ range first 6 (where site.RegularPages "Section" "portfolio" ) }}
+                        {{ $src := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .Params.thumb ) }}
+
+                        {{ $tinyw := default "320x webp" }}
+                        {{ $smallw := default "600x webp" }}
+                        {{ $mediumw := default "1200x webp" }}
+
+                        {{ $resizedtiny := $src.Resize $tinyw }}
+                        {{ $resizedsmall := $src.Resize $smallw }}
+                        {{ $resizedmedium := $src.Resize $mediumw }}
                         <div class="column">
                             <a href="{{ .Permalink }}" class="item-wrapper">
-                                <img src="{{.Params.thumb}}" class="item-image" alt="{{ .Title }}">
+                                <img 
+                                srcset="
+                                    {{ $resizedtiny.RelPermalink }} 320w,
+                                    {{ $resizedsmall.RelPermalink }} 600w,
+                                    {{ $resizedmedium.RelPermalink }} 1200w
+                                    "
+                                src="{{.Params.thumb}}" class="item-image" alt="{{ .Title }}" loading="lazy">
                                 <div class="item-caption">
                                     <p class="is-size-5">{{ .Title }}</p>
                                     <p class="is-size-7 has-text-primary">{{ .Params.portfolio_type }}</p>

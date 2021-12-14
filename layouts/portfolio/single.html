@@ -28,9 +28,9 @@
 
                         {{ $src := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
 
-                        {{ $tinyw := default "320x" }}
-                        {{ $smallw := default "600x" }}
-                        {{ $mediumw := default "1200x" }}
+                        {{ $tinyw := default "320x webp" }}
+                        {{ $smallw := default "600x webp" }}
+                        {{ $mediumw := default "1200x webp" }}
 
                         {{ $resizedtiny := $src.Resize $tinyw }}
                         {{ $resizedsmall := $src.Resize $smallw }}
@@ -42,7 +42,7 @@
                             {{ $resizedsmall.RelPermalink }} 600w,
                             {{ $resizedmedium.RelPermalink }} 1200w
                             "
-                        src="{{ . }}" alt="Screenshot of {{ $.Title }}">
+                        src="{{ . }}" alt="Screenshot of {{ $.Title }}" loading="lazy">
                         {{ end }}
                         {{ end }}
                     </div>
