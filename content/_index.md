@@ -6,19 +6,19 @@ hero_icon: "/uploads/logo_rc-white.svg"
 headline: ", I'm Richard Chin"
 textline: "a front end developer based in Toronto, Canada"
 about: 
-    title: Title goes here
+    title: Pushing the boundaries of experience & design with code.
     content: |-
-        Hi, I'm Richard, a Front-End Web Developer and Graphic Designer based in Toronto. I enjoy creating interactive websites and web apps written with clean, DRY code that are designed with pixel perfection.
+        As a Marketing Web Developer, I help bridge the communication gaps between Development, Marketing and Design. Collaborating with multiple departments, I develop elegant, performant experiences to communicate with prospects, nurture relationships, reinforce brand image and drive revenue.
 
-        Currently, I'm a web developer at [Kira Systems](https://kirasystems.com) where I take ownership of all digital marketing assets including the corporate website, email marketing and blogs.
-
-        Prior to taking the Web Development Immersive at [HackerYou (now known as Juno College)](https://junocollege.com/), I was a Marketing Design Lead at Jonas Club Software, where I collaborated with multiple departments to establish new ways to communicate with clients, develop relationships, reinforce brand image and drive sales revenue.
-
-        When I'm not near a computer, I'm most likely out on an adventure with our ~~puppy~~ dog, Harley.
+        Currently, as a member of the digital marketing and operations team at [Kira Systems](https://kirasystems.com) (winner of the [2021 RGD Award for Best In-House Brand Design](https://www.rgd.ca/2021/11/10/rebrand.php)), I strive to make our online presence accessible and intuitive. Over the years, I've helped spearhead the transformation and enablement of Kira's digital marketing arm for high growth and adoption of machine learning in the legal tech industry. 
+        
+        Lately, I've had a keen interest in the [JAMStack](https://jamstack.org/) methodology, while being an advocate of utilizing reusable components for quick scaling of projects.
 skills: 
     title: Over ten years working in various B2B companies, ranging from large, publicly-traded companies to bootstrapped startups.
     content: |-
-        Hi, I'm Richard, a Front-End Web Developer and Graphic Designer based in Toronto. I enjoy creating interactive websites and web apps written with clean, DRY code that are designed with pixel perfection.
+        Utilizing best-in-breed tools and practices, I've bolstered the digital transformation of organizations to quickly scale their marketing efforts. I am responsible for the integration and maintenance of the tech stack, analytics, CRM and marketing technologies. 
+        
+        Through continuous testing, analyzing and optimizing of marketing programs, I've helped increase conversion rates with more predictive and personalized experiences, driven by customer and prospect intent.
     skill:
     - tool: HTML5
       icon: html5
@@ -32,10 +32,10 @@ skills:
       icon: devLogo-hugo2.svg
     - tool: Forestry
       icon: devLogo-forestry.svg
-    - tool: Gulp
-      icon: gulp
     - tool: Github
       icon: github
+    - tool: Gulp
+      icon: gulp
     - tool: React
       icon: devLogo-react.svg
     - tool: Firebase
@@ -72,7 +72,7 @@ facts:
     content: ''
     fact:
     - title: Photography <br>Enthusiast
-      content: "Toys to document my life's adventures: \n\n* Google Pixel 5\n* Nikon d7100\n* GoPro\n* DJI Mavic Pro"
+      content: "Tools to document my life's adventures: \n\n* Google Pixel 5\n* Nikon d7100\n* GoPro\n* DJI Mavic Pro"
       icon: fa-camera-retro
     - title: Dog <br>Father
       content: |-
@@ -87,12 +87,12 @@ facts:
         If I don't eat, I'll die. Or at most, I'd get hangry.
         * Monthly smoking session on the kamado
         * Grilling / searing on the bbq
-        * Low & slow stews when it gets cold
+        * Low  and slow stews / braised meats when it gets below zero
         * Eating out when I get lazy
       icon: fa-burger-soda
     - title: World <br>Traveler
       content: |-
-        Logging some extra steps on Fitbit.
+        Explorer of new sites & sounds (and logger of Fitbit steps).
         * Joshua Tree, Sequoia, Kings Canyon, Yosemite
         * Road trip to Nova Scotia, New Brunswick, PEI
         * London & Scotland
