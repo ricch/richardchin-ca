@@ -2,11 +2,10 @@
 <section class="hero is-dark is-fullheight-with-navbar is-bold">
     <div class="hero-body">
         <div class="container has-text-centered-mobile">
-            <img src="{{ .Params.hero_icon }}" alt="" width="150" height="150">
-            <h1 class="title is-size-1">
-                <!-- <span id="greeting"></span> -->
-                Hello &#128075;{{ .Params.headline }}</h1>
-            <p class="subtitle">{{ .Params.textline }}</p>
+            <img src="{{ .Params.hero_icon }}" alt="" width="150" height="150" class="wow rubberBand">
+            <h1 class="title is-size-1 wow fadeIn" data-wow-delay=".8s">
+                Hello <div style="display: inline-block;" class="wow tada" data-wow-delay="3.2s">&#128075;</div>{{ .Params.headline }}</h1>
+            <p class="subtitle wow fadeInUp" data-wow-delay="1.6s">{{ .Params.textline }}</p>
         </div>
     </div>
 </section>
