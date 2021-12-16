@@ -12,7 +12,7 @@ tags:
   - Sass
   - Yelp API
 github_url: https://github.com/ricch/SubCrawl
-live_url: http://richardchin.ca/SubCrawl/index.html
+live_url: https://ricch.github.io/SubCrawl/
 portfolio_images:
   - /uploads/portfolio-subcrawl.png
 portfolio_type: Yelp API Web App

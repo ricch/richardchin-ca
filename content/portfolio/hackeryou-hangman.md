@@ -11,7 +11,7 @@ tags:
   - CSS3
   - Sass
 github_url: https://github.com/ricch/HackerYouHangman
-live_url: http://www.richardchin.ca/HackerYouHangman/
+live_url: https://ricch.github.io/HackerYouHangman/
 portfolio_images:
   - /uploads/web-hangman.png
 portfolio_type: Javascript Game
