@@ -68,7 +68,7 @@ skills:
     - tool: Hubspot
       icon: hubspot
 facts:
-    title: "When I'm not coding or working, I like to keep myself busy.<br><span class='is-size-6'>(Although my <span id='emilyAge'></span> month daughter has been keeping me on my toes)</span>"
+    title: "When I'm not coding or working, I like to keep myself busy.<br><span class='is-size-6'>(Although my <span id='emilyAge'></span>&nbsp;month daughter has been keeping me on my toes)</span>"
     content: ''
     fact:
     - title: Photography <br>Enthusiast
