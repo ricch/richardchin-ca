@@ -88,8 +88,12 @@ facts:
       d7100\n* GoPro\n* DJI Mavic Pro"
     icon: fa-camera-retro
   - title: Dog Father
-    content: Getting fresh air with our doggo, Harley:* &frac14; Rottweiler* &frac14;
-      Husky* &frac14; German Shepherd* &frac14; Australian Shepherd
+    content: |-
+      Getting fresh air with our doggo, Harley:
+      * &frac14; Rottweiler
+      * &frac14; Husky
+      * &frac14; German Shepherd
+      * &frac14; Australian Shepherd
     icon: fa-paw
   - title: Wannabe Chef
     content: |-
