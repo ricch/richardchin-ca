@@ -68,13 +68,13 @@ skills:
     - tool: Hubspot
       icon: hubspot
 facts:
-    title: "When I'm not coding or working, I like to keep myself busy.<br><span class='is-size-6'>(Although my <span id='emilyAge'></span>&nbsp;month daughter has been keeping me on my toes)</span>"
+    title: "When I'm not coding or working, I like to keep  busy.<br><span class='is-size-6'>(Although my <span id='emilyAge'></span>&nbsp;month old daughter has been keeping me on my toes)</span>"
     content: ''
     fact:
-    - title: Photography <br>Enthusiast
+    - title: Photo Enthusiast
       content: "Tools to document my life's adventures: \n\n* Google Pixel 5\n* Nikon d7100\n* GoPro\n* DJI Mavic Pro"
       icon: fa-camera-retro
-    - title: Dog <br>Father
+    - title: Dog Father
       content: |-
         Getting fresh air with our doggo Harley:
         * &frac14; Rottweiler
@@ -82,15 +82,15 @@ facts:
         * &frac14; German Shepherd
         * &frac14; Australian Shepherd
       icon: fa-paw
-    - title: Wannabe <br>Chef
+    - title: Wannabe Chef
       content: |- 
         If I don't eat, I'll die. Or at most, I'd get hangry.
-        * Monthly smoking session on the kamado
+        * Monthly smoked meat session on the kamado
         * Grilling / searing on the bbq
         * Low  and slow stews / braised meats when it gets below zero
         * Eating out when I get lazy
       icon: fa-burger-soda
-    - title: World <br>Traveler
+    - title: World Traveler
       content: |-
         Explorer of new sites & sounds (and logger of Fitbit steps).
         * Joshua Tree, Sequoia, Kings Canyon, Yosemite
@@ -98,7 +98,7 @@ facts:
         * London & Scotland
         * Grand Canyon, Antelope Canyon, Monument Valley, Bryce Canyon, Zion
       icon: fa-caravan
-    - title: Hockey <br>Fanatic
+    - title: Hockey Fanatic
       content: |-
         Bleeding blue & white since first holding a hockey stick.
         * Potvin era
