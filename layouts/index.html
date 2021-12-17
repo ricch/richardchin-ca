@@ -42,7 +42,7 @@
                     <p class="has-text-centered has-text-weight-bold">Dev Stack</p>
                     <div class="columns is-multiline is-mobile is-centered" style="flex-direction: row;">
                         {{ range .Params.skills.skill }}
-                        <div class="column is-3 has-text-centered">
+                        <div class="column is-3 has-text-centered wow animate__animated animate__fadeIn" data-wow-delay=".6s" >
                             {{ if in .icon ".svg" }}
                             <img src="/uploads/{{ .icon }}" alt="" style="max-height: 30px;">
                             {{ else }}
@@ -55,7 +55,7 @@
                     <p class="has-text-centered has-text-weight-bold">MarTech Stack</p>
                     <div class="columns is-multiline is-mobile is-centered" style="flex-direction: row;">
                         {{ range .Params.skills.martech }}
-                        <div class="column is-3 has-text-centered">
+                        <div class="column is-3 has-text-centered wow animate__animated animate__fadeIn" data-wow-delay=".6s">
                             {{ if in .icon ".svg" }}
                             <img src="/uploads/{{ .icon }}" alt="" style="max-height: 30px;">
                             {{ else }}
