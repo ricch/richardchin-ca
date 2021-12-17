@@ -3,3 +3,23 @@ a {
         text-decoration: none;
     }
 }
+
+.button {
+    &.is-primary {
+        &:hover {
+            background-color: $dark !important;
+        }
+    }
+}
+
+.hero {
+    &.is-dark {
+        .button {
+            &.is-primary {
+                &:hover {
+                    background-color: darken($green, 5%) !important;
+                }
+            }
+        }
+    }
+}

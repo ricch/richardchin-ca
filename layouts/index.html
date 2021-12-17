@@ -2,10 +2,10 @@
 <section class="hero is-dark is-fullheight-with-navbar is-bold">
     <div class="hero-body">
         <div class="container has-text-centered-mobile">
-            <img src="{{ .Params.hero_icon }}" alt="" width="150" height="150" class="wow rubberBand">
-            <h1 class="title is-size-1 wow fadeIn" data-wow-delay=".8s">
-                Hello <div style="display: inline-block;" class="wow tada" data-wow-delay="3.2s">&#128075;</div>{{ .Params.headline }}</h1>
-            <p class="subtitle wow fadeInUp" data-wow-delay="1.6s">{{ .Params.textline }}</p>
+            <img src="{{ .Params.hero_icon }}" alt="" width="150" height="150" class="wow animate__animated animate__rubberBand">
+            <h1 class="title is-size-1 animate__animated animate__fadeIn wow" data-wow-delay=".8s">
+                Hello <div style="display: inline-block;" class="wow animate__animated animate__tada" data-wow-delay="3.2s">&#128075;</div>{{ .Params.headline }}</h1>
+            <p class="wow animate__animated animate__fadeInUp" data-wow-delay="1.6s">{{ .Params.textline }}</p>
         </div>
     </div>
 </section>
@@ -15,7 +15,7 @@
             <div class="columns" style="align-items: center;">
                 <div class="column" style="position: relative;">
                     <h2 id="about">About</h2>
-                    <h3 class="is-size-3">{{ .Params.about.title }}</h3>
+                    <h3 class="wow animate__animated animate__fadeInUp" data-wow-delay=".6s">{{ .Params.about.title }}</h3>
                     {{ .Params.about.content | markdownify }}
                     <div class="buttons mt-5">
                         <a href="/resume/RichardChin-Resume.pdf" class="button is-primary" target="_blank">Download CV <i class="fas fa-arrow-to-bottom ml-2"></i></a><a href="https://www.linkedin.com/in/{{ $.Site.Params.linkedin }}" class="button is-dark is-outlined" rel="noopener" target="_blank">Visit me on LinkedIn <i class="fas fa-external-link ml-2"></i></a>
@@ -34,11 +34,12 @@
             <div class="columns" style="align-items: center;">
                 <div class="column is-offset-1" style="position: relative;">
                     <h2>Skills</h2>
-                    <h3>{{ .Params.skills.title }}</h3>
+                    <h3 class="wow animate__animated animate__fadeInUp" data-wow-delay=".6s">{{ .Params.skills.title }}</h3>
                     {{ .Params.skills.content | markdownify }}
+                    <a href="#contact" class="button is-primary">Get in Touch<i class="fas fa-comment-dots ml-2"></i></a>
                 </div>
                 <div class="column is-5">
-                    <h6 class="has-text-centered">Dev Stack</h6>
+                    <p class="has-text-centered has-text-weight-bold">Dev Stack</p>
                     <div class="columns is-multiline is-mobile is-centered" style="flex-direction: row;">
                         {{ range .Params.skills.skill }}
                         <div class="column is-3 has-text-centered">
@@ -51,7 +52,7 @@
                         </div>
                         {{ end }}
                     </div>
-                    <h6 class="has-text-centered">Martech Stack</h6>
+                    <p class="has-text-centered has-text-weight-bold">MarTech Stack</p>
                     <div class="columns is-multiline is-mobile is-centered" style="flex-direction: row;">
                         {{ range .Params.skills.martech }}
                         <div class="column is-3 has-text-centered">
@@ -75,7 +76,7 @@
             <div class="columns">
                 <div class="column" style="position: relative;">
                     <h2>Works</h2>
-                    <h3>Latest Projects</h3>
+                    <h3 class="wow animate__animated animate__fadeInUp" data-wow-delay=".6s">Latest Projects</h3>
                     <div class="columns">
                         {{ range first 6 (where site.RegularPages "Section" "portfolio" ) }}
                         {{ $src := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .Params.thumb ) }}
@@ -115,7 +116,7 @@
             <div class="columns">
                 <div class="column" style="position: relative;">
                     <h2>Rando Facts</h2>
-                    <h3 class="has-text-centered-tablet">{{ .Params.facts.title | markdownify }}</h3>
+                    <h3 class="has-text-centered-tablet wow animate__animated animate__fadeInUp" data-wow-delay=".6s">{{ .Params.facts.title | markdownify }}</h3>
                     {{ .Params.facts.content | markdownify }}
                     <div class="columns">
                         {{ range .Params.facts.fact }}
@@ -142,7 +143,7 @@
             <div class="columns">
                 <div class="column" style="position: relative;">
                     <h2>Get in Touch</h2>
-                    <h3 class="has-text-centered">Shoot me a quick message and let's connect!</h3>
+                    <h3 class="has-text-centered wow animate__animated animate__fadeInUp" data-wow-delay=".6s">Shoot me a quick message and let's connect!</h3>
                     <div class="columns is-centered">
                         <div class="column is-10-tablet is-8-desktop is-6-widescreen">
                             {{ partial "components/contact-form.html" . }}
