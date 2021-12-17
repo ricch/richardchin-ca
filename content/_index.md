@@ -19,7 +19,7 @@ about:
     arm for high growth and adoption of machine learning in the legal tech industry.
     \n\nLately, I've had a keen interest in the <a href=\"https://jamstack.org/\"
     target=\"_blank\" rel=\"noopener\">JAMStack</a> methodology, while being an advocate
-    of utilizing reusable components for quickly scaling projects."
+    of utilizing reusable components for the quick scaling of projects."
 skills:
   title: Over ten years working in various B2B companies, ranging from large, publicly-traded
     companies to bootstrapped startups.
