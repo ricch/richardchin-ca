@@ -116,6 +116,4 @@ facts:
       era\n* Cujo era\n* Eagle era \n* ~~_skip a few years_~~\n* Freddy era\n* GM-ing
       my Fantasy Hockey Team ICanSeeYour5Hole"
     icon: fa-hockey-sticks
-
 ---
-asdf
