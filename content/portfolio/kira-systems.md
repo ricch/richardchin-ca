@@ -14,10 +14,12 @@ tags:
 - Pardot
 - Google Analtyics
 - Google Tag Manager
+- Google Optimize
 - Algolia
 - FeedOtter
 - Drift
 - GoToWebinar
+- Zoominfo
 live_url: https://kirasystems.com
 portfolio_type: B2B SaaS Marketing Website
 portfolio_images:
