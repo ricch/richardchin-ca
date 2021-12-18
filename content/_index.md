@@ -42,6 +42,10 @@ skills:
     icon: devLogo-hugo2.svg
   - tool: Forestry
     icon: devLogo-forestry.svg
+  - tool: Bulma
+    icon: devLogo-bulma.svg
+  - tool: Bootstrap
+    icon: bootstrap
   - tool: Github
     icon: github
   - tool: Gulp
