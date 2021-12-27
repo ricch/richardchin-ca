@@ -44,3 +44,15 @@ $navbar-dropdown-item-hover-background-color: transparent;
 //         }
 //     }
 // }
+
+.skip-nav {
+    position: absolute !important;
+    z-index: 1000;
+    display: inline;
+    left: 50%;
+    transform: translate(-50%, -400%);
+    transition: .3s all;
+    &:focus {
+        transform: translate(-50%, -110%);
+    }
+}
