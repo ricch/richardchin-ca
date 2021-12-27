@@ -19,7 +19,7 @@ about:
     arm for high growth and adoption of machine learning in the legal tech industry.
     \n\nLately, I've had a keen interest in the <a href=\"https://jamstack.org/\"
     target=\"_blank\" rel=\"noopener\">JAMStack</a> methodology, while being an advocate
-    of utilizing reusable components for the quick scaling of projects."
+    of utilizing reusable components for the quick scaling of projects. I'm currently getting myself acquainted and cozy with Gatsby SSG and Sanity CMS (project available soon)."
 skills:
   title: Over ten years working in various B2B companies, ranging from large, publicly-traded
     companies to bootstrapped startups.
@@ -60,6 +60,10 @@ skills:
     icon: devLogo-jquery.svg
   - tool: Wordpress
     icon: wordpress
+  - tool: Gatsby
+    icon: devLogo-gatsby.svg
+  - tool: Sanity
+    icon: devLogo-sanity.svg
   martech:
   - tool: Salesforce
     icon: salesforce
