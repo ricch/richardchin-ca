@@ -126,7 +126,3 @@ facts:
       my Fantasy Hockey Team ICanSeeYour5Hole"
     icon: fa-hockey-sticks
 ---
-
-Images
-
-![Image](/uploads/headshot-rc.jpeg)
