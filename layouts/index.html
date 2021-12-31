@@ -106,9 +106,9 @@
                             <a href="{{ .Permalink }}" class="item-wrapper">
                                 <img 
                                 srcset="
-                                    {{ $resizedtiny.RelPermalink }} 320w,
-                                    {{ $resizedsmall.RelPermalink }} 600w,
-                                    {{ $resizedmedium.RelPermalink }} 1200w
+                                    {{ if ge $src.Width "320" }}{{ $resizedtiny.RelPermalink }} 320w,{{ end }}
+                                    {{ if ge $src.Width "600" }}{{ $resizedsmall.RelPermalink }} 600w,{{ end }}
+                                    {{ if ge $src.Width "1201" }}{{ $resizedmedium.RelPermalink }} 1200w{{ end }}
                                     "
                                 src="{{.Params.thumb}}" class="item-image" alt="{{ .Title }}" loading="lazy" width="{{ $src.Width }}" height="{{ $src.Height }}">
                                 <div class="item-caption">
