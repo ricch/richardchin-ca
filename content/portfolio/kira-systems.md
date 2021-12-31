@@ -1,7 +1,7 @@
 ---
 title: Kira Systems
 date: 2021-12-13T00:00:00.000-05:00
-description: ''
+description: 'Kira Systems is a powerful machine learning software that identifies, extracts, and analyzes text in contracts and other documents. As a web developer, I helped lead the integration and maintenance of the tech stack, analytics, CRM and marketing technologies'
 thumb: "/uploads/thumb-kira.png"
 textline: Gain visibility in your documents with Machine Learning Contract Analysis
   Software.
