@@ -59,7 +59,7 @@
                         {{ range .Params.skills.skill }}
                         <div class="column is-3 has-text-centered wow animate__animated animate__fadeIn" data-wow-delay=".6s" >
                             {{ if in .icon ".svg" }}
-                            <img src="/uploads/{{ .icon }}" alt="" style="max-height: 30px;">
+                            <img src="/uploads/{{ .icon }}" alt="" style="max-height: 30px;" loading="lazy">
                             {{ else }}
                             <i class="fab fa-{{ .icon }} fa-2x has-text-primary"></i>
                             {{ end }}
@@ -72,7 +72,7 @@
                         {{ range .Params.skills.martech }}
                         <div class="column is-3 has-text-centered wow animate__animated animate__fadeIn" data-wow-delay=".6s">
                             {{ if in .icon ".svg" }}
-                            <img src="/uploads/{{ .icon }}" alt="" style="max-height: 30px;">
+                            <img src="/uploads/{{ .icon }}" alt="" style="max-height: 30px;" loading="lazy">
                             {{ else }}
                             <i class="fab fa-{{ .icon }} fa-2x has-text-info"></i>
                             {{ end }}
