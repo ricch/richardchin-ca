@@ -20,6 +20,7 @@ about:
     \n\nLately, I've had a keen interest in the <a href=\"https://jamstack.org/\"
     target=\"_blank\" rel=\"noopener\">JAMStack</a> methodology, while being an advocate
     of utilizing reusable components for the quick scaling of projects. I'm currently getting myself acquainted and cozy with Gatsby SSG and Sanity CMS (project available soon)."
+  image: "/uploads/headshot-rc.jpeg"
 skills:
   title: Over ten years working in various B2B companies, ranging from large, publicly-traded
     companies to bootstrapped startups.
@@ -125,3 +126,7 @@ facts:
       my Fantasy Hockey Team ICanSeeYour5Hole"
     icon: fa-hockey-sticks
 ---
+
+Images
+
+![Image](/uploads/headshot-rc.jpeg)

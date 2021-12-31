@@ -22,7 +22,22 @@
                     </div>
                 </div>
                 <div class="column">
-                    <img src="/uploads/headshot-rc.jpeg" alt="Profile photo of Richard">
+                    {{ $src := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" .Params.about.image ) }}
+
+                        {{ $tinyw := default "320x webp" }}
+                        {{ $smallw := default "600x webp" }}
+                        {{ $mediumw := default "1200x webp" }}
+
+                        {{ $resizedtiny := $src.Resize $tinyw }}
+                        {{ $resizedsmall := $src.Resize $smallw }}
+                        {{ $resizedmedium := $src.Resize $mediumw }}
+                    <img 
+                    srcset="
+                        {{ if ge $src.Width "320" }}{{ $resizedtiny.RelPermalink }} 320w,{{ end }}
+                        {{ if ge $src.Width "600" }}{{ $resizedsmall.RelPermalink }} 600w,{{ end }}
+                        {{ if ge $src.Width "1200" }}{{ $resizedmedium.RelPermalink }} 1200w{{ end }}
+                        "
+                    src="{{ .Params.about.image }}" alt="Profile photo of Richard" loading="lazy">
                 </div>
             </div>
         </div>
