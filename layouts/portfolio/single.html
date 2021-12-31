@@ -38,11 +38,11 @@
 
                         <img 
                         srcset="
-                            {{ $resizedtiny.RelPermalink }} 320w,
-                            {{ $resizedsmall.RelPermalink }} 600w,
-                            {{ $resizedmedium.RelPermalink }} 1200w
+                            {{ if ge $src.Width "320" }}{{ $resizedtiny.RelPermalink }} 320w,{{ end }}
+                            {{ if ge $src.Width "600" }}{{ $resizedsmall.RelPermalink }} 600w,{{ end }}
+                            {{ if ge $src.Width "1201" }}{{ $resizedmedium.RelPermalink }} 1200w{{ end }}
                             "
-                        src="{{ . }}" alt="Screenshot of {{ $.Title }}" loading="lazy">
+                        src="{{ . }}" alt="Screenshot of {{ $.Title }}" loading="lazy" width="{{ $src.Width }}" height="{{ $src.Height }}">
                         {{ end }}
                         {{ end }}
                     </div>
