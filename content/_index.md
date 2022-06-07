@@ -1,16 +1,16 @@
 ---
-title: Front End Web Developer
+title: Marketing Web and Operations Leader
 date: 2021-11-30T19:51:55.000-05:00
 hero_image: ''
 hero_icon: "/uploads/logo_rc-white.svg"
 headline: ", I'm Richard Chin"
-textline: a front end developer based in Toronto, Canada
+textline: a marketing web and operations specialist based in Toronto, Canada
 about:
   title: Pushing the boundaries of experience & design with code.
-  content: "As a Marketing Web Developer, I help bridge the communication gaps between
+  content: "As a Marketing Web and Operations Lead, I help bridge the communication gaps between
     Development, Marketing and Design. Collaborating with multiple departments, I
     develop elegant, performant experiences to communicate with prospects, nurture
-    relationships, reinforce brand image and drive revenue.\n\nCurrently, as a member
+    relationships, reinforce brand image and drive revenue.\n\nAs a member
     of the digital marketing and operations team at <a href=\"https://kirasystems.com\"
     target=\"_blank\" rel=\"noopener\">Kira Systems</a> (winner of the <a href=\"https://www.rgd.ca/2021/11/10/rebrand.php\"
     target=\"_blank\" rel=\"noopener\">2021 RGD Award for Best In-House Brand Design</a>),
